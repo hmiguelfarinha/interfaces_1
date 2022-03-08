@@ -1,6 +1,6 @@
 package model.services;
 
-public class BrazilTaxService { //
+public class BrazilTaxService implements TaxService { 
 
 	public double tax(double amount) { //used the primitive type double because was considered that we always have an amount for the tax method
 		if(amount <= 100.0) {
